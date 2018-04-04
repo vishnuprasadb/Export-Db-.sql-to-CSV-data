@@ -10,6 +10,13 @@ How to use:
    Eg. Suppose the sql file is "sql_to_csv.sh"
    sudo ./sql_to_csv.sh <mysqlUsername> <mysqlPassword> <dbName> <mysqlPath> <destinationFolderPath>
    
+Parameters to be given to the script in the following order.
+1. mysql_user
+2. mysql_pwd
+3. mysql_db_name
+4. mysql_path
+5. destination_folder
+   
 The Csv filename will be same as the DB Table names.
 
 Generally mysqlPath would be "/var/lib/mysql-files/" -- This folder will have mysql permissions.
